@@ -44,7 +44,7 @@ rpc.method('github-lookup', {
   regex: 'github me (?<query>.+)',
   params: ['query', 'color']
 }, ({user, method, params, room_id}, respond) => {
-  respond(`https://github.com/${params.query}`,, {
+  respond(`https://github.com/${params.query}`, {
     title: params.query,
     title_link: `https://github.com/${params.query}`,
     image_url: `https://github.com/${params.query}.png`,
