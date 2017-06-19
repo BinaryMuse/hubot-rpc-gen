@@ -41,7 +41,7 @@ If you want to provide more advanced options, like `title` and `color` in the re
 ```javascript
 rpc.method('github-lookup', {
   help: 'github me <query> - link to a GitHub user',
-  regex: '/github me (?<query>.+)/',
+  regex: 'github me (?<query>.+)',
   params: ['query', 'color']
 }, ({user, method, params, room_id}, respond) => {
   respond(`https://github.com/${params.query}`,, {

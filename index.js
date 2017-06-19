@@ -18,10 +18,9 @@ class RpcMethod {
   }
 
   toJSON() {
-    const rgxStr = this._options.regex.toString()
     return {
       help: this._options.help || '',
-      regex: rgxStr.substr(1, rgxStr.length - 2),
+      regex: this._options.regex,
       params: this._options.params,
       path: this._name
     }
