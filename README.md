@@ -1,6 +1,6 @@
 # hubot-rpc-gen
 
-Generate [Chatops RPC compatible servers]() for Hubot and more! Compatible with Express v4.
+Generate [Chatops RPC compatible servers](https://github.com/bhuga/hubot-chatops-rpc) for Hubot and more! Compatible with Express v4.
 
 ## Installation
 
