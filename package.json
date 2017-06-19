@@ -1,0 +1,23 @@
+{
+  "name": "hubot-rpc-gen",
+  "version": "0.0.0",
+  "description": "Generate Chatops RPC compatible servers for Hubot and more",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "hubot",
+    "chat rpc",
+    "crpc",
+    "chatops",
+    "chatops rpc"
+  ],
+  "author": "Michelle Tilley <michelle@michelletilley.net>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
+}
